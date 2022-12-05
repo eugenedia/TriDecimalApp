@@ -16,6 +16,7 @@ namespace TriDecimal
             numbersDictionary = GenerateSixDigitNumberDictionary();
 
             long countBeautifulNumbers =  CountBeautifulNumbers(numbersDictionary);
+            Console.WriteLine(countBeautifulNumbers);
         }
 
 
